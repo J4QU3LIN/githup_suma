@@ -10,8 +10,9 @@ import java.util.Scanner;
 public class Suma_githup {
 
 public static void main(String[] args) {
-        float numero1 = 0; float numero2 = 0; float resultado;
-
+        float numero1 = 0; float numero2 = 0;
+        float resultado;
+       
 Scanner reader = new Scanner(System.in);
 
 System.out.println("Introduce el primer número:"); numero1 = reader.nextFloat();
@@ -19,4 +20,12 @@ System.out.println("Introduce el primer número:"); numero1 = reader.nextFloat()
 System.out.println("Introduce el segundo número:"); numero2 = reader.nextFloat();
 
 resultado = numero1+numero2; System.out.println("La suma es " + numero1 + " + " + numero2 + " = " + resultado); }   
+
+int resta;
+System.out.print("teclea el primer numero:");
+ numero1 = entrada.nextInt();
+  System.out.print("teclea el segundo digito:");
+  numero2 =entrada.nextInt();
+  resta =numero1 - numero2;
+  System.out.printf("La resta es %d\n",resta);
 }
